@@ -54,7 +54,7 @@ client = genai.Client(api_key="GEMINI API KEY")
 
 Replace `"GEMINI API KEY"` with your actual key.
 
-> **鈿狅笍 Security Warning:** Do not commit your API key directly to a public repository. For better security, use environment variables to store your key.
+> **Security Warning:** Do not commit your API key directly to a public repository. For better security, use environment variables to store your key.
 
 ## How to Run
 
@@ -72,17 +72,17 @@ Replace `"GEMINI API KEY"` with your actual key.
 ```
 You: what is a list in python?
 
-Chatbot: Hey there! A list in Python is a collection of items that is ordered and changeable. You can think of it like a shopping list where you can add, remove, or change items. You create one using square brackets `[]`. For example: `fruits = ["apple", "banana", "cherry"]`. What else can I help you with? 馃槉
-馃搳 Tokens used: 88
+Chatbot: Hey there! A list in Python is a collection of items that is ordered and changeable. You can think of it like a shopping list where you can add, remove, or change items. You create one using square brackets `[]`. For example: `fruits = ["apple", "banana", "cherry"]`. What else can I help you with? 
+Tokens used: 88
 
 You: how do I add "orange" to it?
 
 Chatbot: Great question! You can easily add an item to the end of a list using the `.append()` method. Like this: `fruits.append("orange")`. Your list would then be `["apple", "banana", "cherry", "orange"]`. Keep the great questions coming!
-馃搳 Tokens used: 162
+ Tokens used: 162
 
 You: clear
 
-Chatbot: History cleared and screen refreshed 鉁?
+Chatbot: History cleared and screen refreshed ?
 You: exit
 
-Chatbot: Conversation ended! Catch you later 馃槃
+Chatbot: Conversation ended! Catch you later
